@@ -96,7 +96,7 @@ body {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: linear-gradient(rgba(44, 62, 80, 0.7), rgba(74, 144, 226, 0.7)), url("images/security_service_germany_2.jpg");
+    background: linear-gradient(rgba(44, 62, 80, 0.7), rgba(74, 144, 226, 0.7)), url("images/hero_image_new.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
