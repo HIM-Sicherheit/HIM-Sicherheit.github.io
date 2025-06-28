@@ -666,3 +666,30 @@ body {
     }
 }
 
+
+
+.hero-shield-icon {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+    animation: fadeIn 1.5s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-shield-icon {
+        width: 100px;
+    }
+}
+
+
